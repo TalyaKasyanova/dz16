@@ -1,0 +1,21 @@
+@use "variables";
+
+body {
+  background: linear-gradient(130deg, rgba(228, 228, 227, 1) 0%, rgb(130, 135, 197) 25%, rgb(224, 222, 158) 53%, rgb(219, 150, 145) 80%, rgba(233, 45, 253, 1) 100%);
+  color: $text-color;
+  padding: 55px 15px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
